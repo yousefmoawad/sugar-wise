@@ -128,31 +128,37 @@ Browser
 - **npm** manages the frontend and backend packages.
 - GitHub Actions uses **Node.js 22** for automated project checks.
 
-### Frontend Libraries
+### Frontend packages
 
-- **React, React DOM, and Create React App (`react-scripts`)** — user interface and frontend application runtime.
-- **React Router DOM** — page navigation.
-- **Axios** — communication between the frontend and backend.
-- **Tailwind CSS, PostCSS, and Autoprefixer** — styling.
-- **i18next, react-i18next, and i18next-browser-languagedetector** — translations and language selection.
-- **ApexCharts, Recharts, Victory, and their React integrations** — charts and data visualization.
-- **Leaflet, React Leaflet, and `@react-google-maps/api`** — map and location features.
-- **Stripe React SDKs** — payment interface integration.
-- **Framer Motion and AOS** — animation effects.
-- **Lucide React** — interface icons.
-- **html2canvas, jsPDF, and jsPDF AutoTable** — document and report exports.
-- **Testing Library packages and `web-vitals`** — frontend testing utilities and performance metrics.
+| Package(s) | Purpose |
+| --- | --- |
+| `react`, `react-dom`, `react-scripts` | React interface and Create React App runtime |
+| `react-router-dom` | Client-side navigation |
+| `axios` | HTTP client |
+| `tailwindcss`, `postcss`, `autoprefixer` | Styling and CSS processing |
+| `i18next`, `react-i18next`, `i18next-browser-languagedetector` | Translations and language detection |
+| `apexcharts`, `react-apexcharts`, `recharts`, `victory` | Charts and data visualization |
+| `leaflet`, `react-leaflet`, `@react-google-maps/api` | Maps and location features |
+| `@stripe/react-stripe-js`, `@stripe/stripe-js`, `stripe` | Stripe payment integrations |
+| `framer-motion`, `aos` | Animations and scroll effects |
+| `lucide-react` | Interface icons |
+| `html2canvas`, `jspdf`, `jspdf-autotable` | Image and PDF exports |
+| `@testing-library/dom`, `@testing-library/jest-dom`, `@testing-library/react`, `@testing-library/user-event` | Frontend testing utilities |
+| `web-vitals` | Web performance metrics |
+| `cors`, `dotenv`, `express` | Additional packages declared in the frontend manifest for server-related tooling |
 
-### Backend Libraries
+### Backend packages
 
-- **Express** — web application framework.
-- **Mongoose** — MongoDB object modeling.
-- **jsonwebtoken** — signed-token authentication.
-- **bcryptjs** — password hashing.
-- **cors** — cross-origin request handling.
-- **dotenv** — loading local process configuration.
-- **Nodemailer** — email delivery.
-- **Nodemon** — backend development reload utility.
+| Package | Purpose |
+| --- | --- |
+| `express` | Backend web framework |
+| `mongoose` | MongoDB object modeling |
+| `jsonwebtoken` | Signed-token authentication |
+| `bcryptjs` | Password hashing |
+| `cors` | Cross-origin request handling |
+| `dotenv` | Local configuration loading |
+| `nodemailer` | Email delivery |
+| `nodemon` | Backend development reload utility |
 
 ## Continuous Integration
 
@@ -162,6 +168,20 @@ GitHub Actions runs the project checks on every push and pull request:
 - Installs backend dependencies and checks the JavaScript syntax of backend source files.
 
 The workflow uses Node.js 22. It does not run unit tests: the backend test command is a placeholder, and the existing frontend test still contains the default Create React App starter assertion.
+
+## GitHub Container Packages
+
+The repository publishes its backend Docker image to GitHub Container Registry (GHCR) whenever changes are pushed to `main` or a version tag beginning with `v`:
+
+| Component | Package image |
+| --- | --- |
+| Backend | `ghcr.io/yousefmoawad/sugar-wise-backend` |
+
+The image is tagged with the branch or release tag, a commit SHA, and `latest` for the default branch. It runs the Express application and requires a MongoDB connection and a strong JWT secret at runtime. Persist `server/public/uploads` outside the container if uploaded reports must survive container replacement.
+
+The frontend image is not published yet. Its current source imports team photographs that are missing from the repository, so the frontend production build fails. The About Us page has been left unchanged; restore its referenced image files before packaging the frontend.
+
+The first GHCR publication may create a private package by default. If the image should be publicly pullable, change the package's visibility to **Public** in its GitHub package settings after the first successful publication.
 
 ## Additional Notes
 
