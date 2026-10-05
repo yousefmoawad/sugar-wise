@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom global styles below if needed, but usually this is empty */
+body {
+  @apply transition-colors duration-300; /* Optional: Makes background color changes smooth */
+}
+
+/* ✅ Hide scrollbar globally while keeping scroll functionality */
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* For IE and Edge (old) */
+}
+
+/* Ensure body and html can still scroll */
+html, body {
+  overflow-y: scroll; /* Allow scrolling but hide scrollbar */
+}

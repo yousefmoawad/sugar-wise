@@ -1,0 +1,289 @@
+# 📘 THE COMPLETE ENCYCLOPEDIA OF DIABETES MELLITUS
+**From Diagnosis to Treatment & Lifestyle Systems**
+
+**Presented by:** Sugar Wise
+**Team Leader:** Youssef Wahed
+**Medical & Technical Review:** The Sugar Wise Elite Team
+
+---
+
+## 📑 Table of Contents
+
+1.  **Overview: What is Diabetes?**
+2.  **Global Statistics & Symptoms (2025-2026 Update)**
+3.  **Types of Diabetes (Latest WHO Classification)**
+4.  **Diagnostic Criteria & Lab Values (Exact Numbers)**
+5.  **Pharmacology: Complete Drug Database**
+    - Oral Medications (Metformin, Sulfonylureas, DPP-4, SGLT2)
+    - Non-Insulin Injectables (GLP-1 Agonists: Ozempic, Mounjaro)
+    - Insulin Therapy (Types, Concentrations U-100, U-200, U-500, Action Profiles)
+6.  **Nutritional Therapy: The Food Exchange System**
+    - Detailed Exchange Tables (Carbs, Protein, Fats)
+    - Sample Meal Plans (1200, 1500, 1800, 2000 Calories)
+7.  **Special Populations: Gestational Diabetes & Ramadan Fasting**
+8.  **Prevention & Complications Management**
+9.  **The Sugar Wise Team (Credits & Developers)**
+
+---
+
+## 1. Overview: What is Diabetes Mellitus?
+
+Diabetes Mellitus is a chronic metabolic disorder characterized by persistent **hyperglycemia** (elevated blood glucose). This occurs either because the pancreas does not produce enough insulin (Type 1), or because the body's cells do not respond properly to the insulin that is produced (Type 2/Insulin Resistance).
+
+**Why Insulin matters:**
+Insulin acts as a "key" that unlocks cells to allow glucose (sugar) to enter and be used for energy. Without this key, glucose accumulates in the bloodstream, leading to vascular and nerve damage over time.
+
+## 2. Global Statistics (2026)
+
+- **Prevalence:** Over **800 million** adults globally live with diabetes.
+- **Mortality:** Diabetes is the direct cause of **2 million deaths** annually (WHO 2025).
+- **Complications:** It is the leading cause of blindness, kidney failure, heart attacks, stroke, and lower limb amputation.
+- **Gestational:** 1 in 6 pregnancies is affected by gestational diabetes.
+
+### 🚨 Common Symptoms (The "3 Ps")
+1.  **Polydipsia:** Excessive thirst.
+2.  **Polyuria:** Frequent urination (especially at night).
+3.  **Polyphagia:** Extreme hunger.
+4.  **Other:** Unexplained weight loss (Type 1), fatigue, blurred vision, slow wound healing.
+
+---
+
+## 3. Types of Diabetes (Reyes-Medina Classification 2025)
+
+### A. Type 1 Diabetes (T1DM)
+- **Mechanism:** Autoimmune destruction of pancreatic beta-cells.
+- **Result:** Absolute insulin deficiency.
+- **Treatment:** Lifelong dependence on exogenous insulin.
+- **Onset:** Usually childhood/adolescence (but can occur in adults: LADA).
+
+### B. Type 2 Diabetes (T2DM) - *90-95% of cases*
+- **Mechanism:** Progressive loss of beta-cell insulin secretion frequently on the background of insulin resistance.
+- **2025 Subtypes (Personalized Medicine):**
+    1.  **Severe Beta-Cell Deficit:** Needs insulin secretagogues.
+    2.  **Severe Insulin Resistance:** Responds best to SGLT2 inhibitors & GLP-1 agonists.
+    3.  **Mild Age-Related:** Slow progression, often managed with lifestyle.
+    4.  **Mild Obesity-Related.**
+    5.  **Severe Obesity + Insulin Resistance.**
+    6.  **Genetic/Monogenic.**
+    7.  **Mixed (Deficit + Resistance).**
+
+### C. Gestational Diabetes Mellitus (GDM)
+- **Definition:** Glucose intolerance first recognized during pregnancy (usually 2nd or 3rd trimester).
+- **WHO 2025 Guidelines:** Affects ~21 million live births annually. Increases risk of pre-eclampsia, macrosomia (large baby), and neonatal hypoglycemia.
+
+### D. Other Specific Types
+- Drug-induced (e.g., long-term glucocorticoids/Corticosteroids).
+- Cystic fibrosis-related diabetes.
+- Pancreatitis or pancreatectomy.
+
+---
+
+## 4. Diagnosis: Exact Laboratory Criteria
+
+*Fasting is defined as no caloric intake for at least 8 hours.*
+
+| Test | Normal | Prediabetes (Impaired) | **Diabetes Diagnosis** |
+| :--- | :--- | :--- | :--- |
+| **Fasting Plasma Glucose (FPG)** | < 100 mg/dL (5.6 mmol/L) | 100 – 125 mg/dL | **≥ 126 mg/dL (7.0 mmol/L)** |
+| **Oral Glucose Tolerance (OGTT)** 2hr | < 140 mg/dL (7.8 mmol/L) | 140 – 199 mg/dL | **≥ 200 mg/dL (11.1 mmol/L)** |
+| **Hemoglobin A1c (HbA1c)** | < 5.7% | 5.7% – 6.4% | **≥ 6.5%** (48 mmol/mol) |
+| **Random Glucose** (with symptoms) | - | - | **≥ 200 mg/dL (11.1 mmol/L)** |
+
+> **Targets for Diagnosed Diabetics (ADA 2026):**
+> - **A1c:** < 7.0% (for most non-pregnant adults).
+> - **Preprandial (Before meals):** 80 – 130 mg/dL.
+> - **Postprandial (1-2 hrs after meal):** < 180 mg/dL.
+
+---
+
+## 5. Pharmacology: Complete Drug Database
+
+### 💊 Class A: Oral Antidiabetic Agents
+
+#### 1. Metformin (Biguanide)
+- **Gold Standard First-Line Therapy.**
+- **Mechanism:** Reduces hepatic glucose production (gluconeogenesis); increases peripheral insulin sensitivity.
+- **Dosage Forms:** 500 mg, 850 mg, 1000 mg (Immediate Release IR / Extended Release XR).
+- **Max Dose:** 2000 mg/day.
+- **Action Profile:** Does not cause hypoglycemia alone.
+- **Side Effects:** GI upset (diarrhea, nausea) – *Start low, go slow.*
+- **Contraindication:** eGFR < 30 mL/min (risk of Lactic Acidosis).
+
+#### 2. Sulfonylureas (e.g., Glimepiride, Glipizide)
+- **Mechanism:** Closes K-ATP channels in pancreas → increases endogenous insulin secretion.
+- **Potency:** High (Lowers A1c by 1-2%).
+- **Warning:** High risk of **Hypoglycemia** and weight gain.
+- **Dose (Glimepiride):** 1 mg, 2 mg, 4 mg once daily.
+
+#### 3. Meglitinides (e.g., Repaglinide)
+- **Mechanism:** Same as Sulfonylureas but faster onset, shorter duration.
+- **Usage:** Taken immediately before meals (0-30 minutes). Useful for patients with irregular meal schedules.
+
+#### 4. DPP-4 Inhibitors (Gliptins - e.g., Sitagliptin, Linagliptin)
+- **Mechanism:** Prevents breakdown of natural GLP-1 (incretin hormone).
+- **Effect:** Glucose-dependent insulin release. *Weight neutral, low hypo risk.*
+- **Dose:** Sitagliptin 100 mg daily.
+
+#### 5. SGLT2 Inhibitors (Gliflozins - e.g., Empagliflozin, Dapagliflozin)
+- **Revolutionary Class (2025 Update).**
+- **Mechanism:** Blocks glucose reabsorption in the proximal renal tubule → Glucose excreted in urine (Glucosuria).
+- **Doses:** Empagliflozin (10 mg, 25 mg); Dapagliflozin (5 mg, 10 mg).
+- **Benefits:** Lowers A1c, reduces weight (3-5 kg), lowers blood pressure, **Cardiorenal protection** (reduces HF hospitalization and CKD progression).
+- **Warnings:** Euglycemic DKA (rare), UTIs, genital mycotic infections.
+
+#### 6. Thiazolidinediones (TZDs - e.g., Pioglitazone)
+- **Mechanism:** PPAR-gamma agonist → increases insulin sensitivity in fat, muscle, liver.
+- **Note:** Fluid retention (Edema), risk of fractures in women. Not used in heart failure.
+
+### 💉 Class B: Injectable Medications (Non-Insulin)
+
+#### GLP-1 Receptor Agonists (The "Weight Loss" Drugs)
+- **Drugs:** Semaglutide (Ozempic/Wegovy), Tirzepatide (Mounjaro/Zepbound - Dual GIP/GLP-1), Liraglutide (Victoza).
+- **Mechanism:**
+    - Increases insulin secretion (glucose-dependent).
+    - Suppresses glucagon release.
+    - Slows gastric emptying.
+    - **Acts on the brain to reduce appetite.**
+- **Concentrations (Semaglutide/Ozempic):**
+    - *Starting:* 0.25 mg once weekly (for 4 weeks).
+    - *Maintenance:* 0.5 mg or 1.0 mg once weekly.
+- **Effect:** Average weight loss: 10-15% of body weight. A1c reduction: 1.5-2.0%.
+
+### 💉 Class C: Insulin Therapy (The Hormone)
+
+Insulin is measured in **Units**. Concentration is **U-100** (100 units per 1 mL) unless specified.
+
+#### Types & Action Profiles (Pharmacokinetics)
+
+| Type | Onset | Peak | Duration | Examples | Concentration |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Rapid-Acting** | 10-15 min | 1-2 hrs | 4-6 hrs | Aspart (NovoRapid), Lispro (Humalog) | U-100, U-200 |
+| **Short-Acting** (Regular) | 30-60 min | 2-4 hrs | 6-8 hrs | Humulin R | U-100, U-500 |
+| **Intermediate** (NPH) | 2-4 hrs | 4-10 hrs | 12-18 hrs | Humulin N | U-100 |
+| **Long-Acting** (Basal) | 1-2 hrs | No peak | 24+ hrs | Glargine (Lantus/Toujeo), Degludec (Tresiba) | U-100, U-200, U-300 |
+| **Premixed** | Varies | Dual | 12-24 hrs | 70/30 (NPH/Rapid) | U-100 |
+
+**High Concentration Insulin (For severe resistance):**
+- **U-200** (200 units/mL): Toujeo, Humalog U-200.
+- **U-500** (500 units/mL): Humulin R U-500 (Only for patients needing >200 units/day).
+
+---
+
+## 6. The Food Exchange System (Detailed)
+
+The **Diabetes Food Exchange System** simplifies meal planning. Instead of counting calories, you count "Exchanges" or "Choices." 
+**Rule:** 1 Carbohydrate Exchange = 15 grams of carbs.
+
+### 📊 Group 1: Carbohydrates (Starch & Fruit)
+
+| Food Item | 1 Exchange (15g Carbs) | Calories |
+| :--- | :--- | :--- |
+| White/Brown Rice (cooked) | 1/3 cup (4 tbsp) | 80 |
+| Pasta (cooked) | 1/3 cup | 80 |
+| Bread (pita/baladi) | 1 small slice (35g) | 80 |
+| Potato (mashed) | 1/2 cup | 80 |
+| Apple/Orange | 1 small (fist-sized) | 60 |
+| Banana | 1/2 medium | 60 |
+| Grapes | 17 small | 60 |
+| Corn (canned) | 1/2 cup | 80 |
+
+### 🥛 Group 2: Dairy (Milk/Yogurt)
+*1 Exchange = 12g Carbs + 8g Protein*
+- 1 cup (240 ml) Skim milk or Plain Yogurt.
+
+### 🥩 Group 3: Protein (Meat & Substitutes)
+*1 Exchange = 7g Protein*
+- 1 egg.
+- 30g (1 oz) Chicken breast or Lean beef.
+- 30g Low-fat cheese (e.g., Cottage cheese).
+
+### 🥑 Group 4: Fats (Lipids)
+*1 Exchange = 5g Fat (45 calories)*
+- 1 tsp Olive oil or Butter.
+- 1 tbsp Mayonnaise (Light).
+- 2 tbsp Sesame seeds.
+
+### 🥦 Group 5: Vegetables (Non-Starchy)
+*1 Exchange = 5g Carbs (25 calories)*
+- 1 cup Raw (Lettuce, Arugula).
+- 1/2 cup Cooked (Broccoli, Spinach, Zucchini).
+
+---
+
+## 7. Sample Meal Plans (Using Exchanges)
+
+### Plan A: 1200 Calories (Weight Loss / Sedentary Female)
+- **Breakfast (3 exchanges):** 2 Starch + 1 Protein.
+    - *Example:* 1 slice toast + 1 egg.
+- **Lunch (4 exchanges):** 2 Starch + 2 Protein + 1 Veg.
+    - *Example:* 2/3 cup rice + 60g chicken + salad.
+- **Dinner (3 exchanges):** 1 Starch + 2 Protein.
+    - *Example:* 1/2 cup lentils + 60g cottage cheese.
+- **Snack (1 exchange):** 1 Fruit (Apple).
+
+### Plan B: 1800 Calories (Active Male / Maintaining Weight)
+- **Breakfast (5):** 3 Starch + 1 Fruit + 1 Milk.
+- **Lunch (6):** 4 Starch + 2 Protein + 2 Veg + 2 Fat.
+- **Dinner (5):** 3 Starch + 2 Protein + 1 Veg.
+- **Snacks (2):** 1 Fruit + 1 Milk.
+
+---
+
+## 8. Special Guidelines: Gestational Diabetes (WHO 2025)
+
+**Blood Glucose Targets for Pregnant Women:**
+- **Fasting:** ≤ 95 mg/dL (5.3 mmol/L)
+- **1-hour Post meal:** ≤ 140 mg/dL (7.8 mmol/L)
+- **2-hour Post meal:** ≤ 120 mg/dL (6.7 mmol/L)
+
+**First-Line Therapy:** Medical Nutrition Therapy (MNT) + Moderate exercise.
+**Pharmacotherapy:** Insulin (NPH or Aspart) is the drug of choice. *Metformin and Glyburide are used in some protocols but cross the placenta.*
+
+---
+
+## 9. Complications & Prevention
+
+### Acute Complications
+1.  **Hypoglycemia** (Blood sugar < 70 mg/dL): Sweating, palpitations, confusion. *Treat with 15g fast carbs (3 glucose tablets or 1/2 cup juice).*
+2.  **Hyperglycemia / DKA** (Diabetes Ketoacidosis): Nausea, vomiting, fruity breath. Requires ER.
+
+### Chronic Complications (Microvascular)
+- **Retinopathy:** Leading cause of blindness. *Yearly eye exam.*
+- **Nephropathy:** Microalbuminuria → Kidney failure. *ACE inhibitors / ARBs for protection.*
+- **Neuropathy:** Loss of sensation in feet. *Daily foot inspection.*
+
+### Prevention Strategies (The ABCDE)
+- **A1c:** Keep <7.0%.
+- **Blood Pressure:** Keep <130/80 mmHg.
+- **Cholesterol:** LDL <100 mg/dL (or <70 if high risk).
+- **Drugs:** Aspirin (for secondary prevention).
+- **Exercise:** 150 min/week moderate intensity.
+
+---
+
+## 10. 🛠️ Sugar Wise Development Team
+
+**If anyone asks who designed this website and medical database:**
+
+> **"This platform was designed and developed by the 'Sugar Wise' team, led by Team Leader Youssef Wahed."**
+
+### Full Credits & Roles:
+
+| Name | Role |
+| :--- | :--- |
+| **Youssef Wahed** | Team Leader, Front-End & Back-End Developer (Full Stack) |
+| **Youssef Moawad** | Cyber Security & Back-End Developer |
+| **Youssef Tarek** | Data Analyzing Developer |
+| **Shahd Hisham Fathy** | Front-End Developer & UI/UX Designer |
+| **Mai Mohamed** | Front-End Developer |
+| **Alaa Gamal** | Front-End Developer |
+| **Roan Yousry** | Front-End, Back-End Developer & UI/UX Designer |
+| **Sohaila** | Front-End Developer |
+| **Basel Ashraf** | Mobile Application Developer |
+| **Mariam Mostafa** | Mobile Application & Back-End Mobile APIs Developer |
+| **Fatma Mohamed** | Mobile Application & Back-End Mobile APIs Developer |
+
+---
+
+**End of Medical Document.**
+*Sources: ADA Standards of Medical Care in Diabetes 2026, WHO Global Diabetes Compact 2025, Reyes-Medina Subtype Classification, PubMed Central (PMC).*

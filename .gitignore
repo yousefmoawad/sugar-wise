@@ -1,0 +1,22 @@
+# Dependencies and generated output
+node_modules/
+Client/build/
+coverage/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# User-uploaded files may contain private profile data
+server/public/uploads/
+
+# Local files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-error.log*

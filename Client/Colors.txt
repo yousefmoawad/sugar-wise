@@ -1,0 +1,76 @@
+# Project Sugar Wise Color Palette
+
+## 🟢 Light Mode Colors
+| Element | Tailwind Class | Hex Code (approx) | Usage |
+| :--- | :--- | :--- | :--- |
+| **Main Background** | `bg-gray-50` | `#F9FAFB` | Page backgrounds, section backgrounds |
+| **Surface Background** | `bg-white` | `#FFFFFF` | Cards, Navbar, Modals, Inputs |
+| **Primary Text** | `text-gray-900` | `#111827` | Headings, main content |
+| **Secondary Text** | `text-gray-600` | `#4B5563` | Subtitles, descriptions |
+| **Muted Text** | `text-gray-400` | `#9CA3AF` | Placeholders, small details |
+| **Primary Blue** | `bg-[#2DA1D7]` / `text-[#2DA1D7]` | `#2DA1D7` | Main brand color (from logo), buttons, links |
+| **Brand Green** | `bg-[#8EC641]` / `text-[#8EC641]` | `#8EC641` | Secondary brand color (from logo), accents |
+| **Secondary Blue** | `bg-blue-50` | `#EFF6FF` | Badge backgrounds, light highlights |
+| **Success Green** | `text-green-600` | `#16A34A` | Positive health status, available status |
+| **Warning Yellow** | `text-yellow-600` | `#CA8A04` | Alerts, rating stars |
+| **Danger Red** | `text-red-600` | `#DC2626` | Errors, critical alerts |
+| **Accent Purple** | `text-purple-600` | `#9333EA` | Decorative elements, gradients |
+| **Section Borders** | `border-gray-200` | `#E5E7EB` | Dividers, card borders, input borders |
+
+---
+
+## 🔵 Dark Mode Colors
+| Element | Tailwind Class | Hex Code (approx) | Usage |
+| :--- | :--- | :--- | :--- |
+| **Main Background** | `bg-gray-900` | `#111827` | Main dark background |
+| **Surface Background** | `bg-gray-800` | `#1F2937` | Cards, secondary backgrounds |
+| **Deep Dark Background** | `bg-gray-950` | `#030712` | Chat backgrounds, footer |
+| **Elevation Background** | `bg-black` | `#000000` | Deep dark areas |
+| **Primary Text** | `text-white` | `#FFFFFF` | Main headings and content |
+| **Secondary Text** | `text-gray-300` | `#D1D5DB` | Descriptions in dark mode |
+| **Muted Text** | `text-gray-500` | `#6B7280` | Muted details in dark mode |
+| **Primary Blue** | `text-[#2DA1D7]` / `bg-[#2DA1D7]` | `#2DA1D7` | Highlights, buttons |
+| **Accent Blue (Dark)** | `bg-[#2DA1D7]/20` | `#2DA1D733` | Subtle backgrounds for badges |
+| **Success Green** | `text-green-400` | `#4ADE80` | Positive status in dark mode |
+| **Warning Yellow** | `text-yellow-500` | `#EAB308` | Alerts in dark mode |
+| **Danger Red** | `text-red-400` | `#F87171` | Error highlights in dark mode |
+| **Section Borders** | `border-gray-700` | `#374151` | Dividers and borders in dark mode |
+
+---
+
+## 🎨 Special Gradients
+- **Hero Primary:** `from-[#2DA1D7] to-[#8EC641]` (Light)
+- **Hero Dark:** `from-[#1a5f7f] to-[#4d6a23]` (Dark)
+- **Accent Health:** `from-[#8EC641] to-[#2DA1D7]`
+- **Gamer Accent:** `from-orange-500 to-yellow-500`
+
+---
+
+## ℹ️ Configuration Note
+The dark mode is triggered using the `class` strategy in `tailwind.config.js`.
+Transitions are globally applied with `transition-colors duration-300`.
+
+---
+
+## 📐 Typography and font size (Updated)
+| Element | Tailwind Classes | Usage |
+| :--- | :--- | :--- |
+| **Hero Main Title** | `text-4xl md:text-6xl lg:text-7xl` | Main impact headline on Home page |
+| **Section Headings** | `text-4xl md:text-5xl` | Primary headers for sections |
+| **Feature Card Titles** | `text-3xl` | Titles inside informational cards |
+| **Primary Subtitles** | `text-xl md:text-2xl` | Descriptions under section headings |
+| **Body Text (Upscaled)** | `text-lg` | Main body copy within cards for better legibility |
+| **Mobile Labels** | `text-base font-bold` | Navigation items and interactive labels on mobile |
+
+---
+
+## 🌌 Page-Level Backgrounds
+- **Light Gradient:** `bg-gradient-to-br from-white via-[#2DA1D7]/5 to-[#8EC641]/5`
+- **Dark Gradient:** `bg-gradient-to-br from-gray-950 via-[#1a5f7f]/10 to-[#4d6a23]/10`
+- **Glassmorphism:** `bg-white/80 dark:bg-gray-900/80 backdrop-blur-md` (Used in Navbar)
+
+---
+
+## 🚀 Navigation Stylings
+- **Nav Links (Desktop):** `text-[1.05rem] font-bold` (Increased from text-sm)
+- **Icon Colors:** `#2DA1D7` (Administrative/Navigation), `#8EC641` (Health/Cart)

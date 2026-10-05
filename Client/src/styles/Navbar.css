@@ -1,0 +1,86 @@
+/* Custom styles for the Navbar component */
+.navbar-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link.active {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.center-nav-container {
+  /* Removed absolute positioning to prevent overlap issues */
+  /* position: absolute; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  width: auto;
+}
+
+/* Dropdown styling for desktop */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 100;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  color: #4b5563;
+  border-bottom: 1px solid #f3f4f6;
+  width: 100%;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f9fafb;
+  color: #3b82f6;
+}
+
+/* Mobile dropdown */
+.mobile-dropdown-content {
+  padding-left: 20px;
+  margin-top: 4px;
+}
+
+.dropdown-arrow {
+  transition: transform 0.3s ease;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+/* Animation for mobile menu */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mobile-menu-slide {
+  animation: slideDown 0.3s ease-out;
+}
