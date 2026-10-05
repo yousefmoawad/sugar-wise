@@ -4,6 +4,17 @@ Sugar Wise is a diabetes care and health-management platform that connects patie
 
 > **Medical notice:** Sugar Wise supports health tracking and education. It does not replace professional medical advice, diagnosis, or treatment.
 
+## Tech Stack
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-22-339933?logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)
+
+GitHub's **Languages** chart reports source-code languages detected in the repository. It does not list frameworks, runtimes, or databases such as React, Node.js, or MongoDB; those technologies are shown here instead.
+
 ## People and Features
 
 ### Patient
