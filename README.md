@@ -115,7 +115,7 @@ Browser
 
 - **Node.js** runs the backend application.
 - **npm** manages the frontend and backend packages.
-- The repository does not pin a specific Node.js version.
+- GitHub Actions uses **Node.js 22** for automated project checks.
 
 ### Frontend Libraries
 
@@ -142,6 +142,15 @@ Browser
 - **dotenv** — loading local process configuration.
 - **Nodemailer** — email delivery.
 - **Nodemon** — backend development reload utility.
+
+## Continuous Integration
+
+GitHub Actions runs the project checks on every push and pull request:
+
+- Installs frontend dependencies and creates a production build.
+- Installs backend dependencies and checks the JavaScript syntax of backend source files.
+
+The workflow uses Node.js 22. It does not run unit tests: the backend test command is a placeholder, and the existing frontend test still contains the default Create React App starter assertion.
 
 ## Additional Notes
 
